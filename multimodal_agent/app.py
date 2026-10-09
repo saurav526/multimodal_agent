@@ -4,11 +4,7 @@ from pathlib import Path
 import streamlit as st
 from dotenv import load_dotenv
 from agent_core import MultiModalAgent
-from modalities import (
-    analyze_image, extract_text_from_file, extract_video_frames,
-    transcribe_audio, transcribe_video_audio, text_to_speech, analyze_video_frames
-)
-
+from modalities import (analyze_image, extract_text_from_file, extract_video_frames,transcribe_audio, transcribe_video_audio, text_to_speech, analyze_video_frames)
 load_dotenv()
 st.set_page_config(page_title="Multimodal Agent", page_icon="✦", layout="wide")
 
