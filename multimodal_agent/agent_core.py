@@ -1,6 +1,5 @@
 from groq import Groq
 
-
 class MultiModalAgent:
     """Sequential multi-agent orchestration using Groq chat completions."""
 
