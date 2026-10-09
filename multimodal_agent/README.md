@@ -14,7 +14,6 @@ A Streamlit assistant that combines sequential agent roles with multimodal input
 - **Touch interaction**: responsive Streamlit controls work on touch-enabled devices. This does not mean raw touch sensor data is an AI input modality.
 
 ## Important modality limits
-
 This is not a single model that natively handles every modality. The app routes each task to a suitable API endpoint/model:
 - Text/code: chat-completion models.
 - Images: Qwen vision-capable model.
