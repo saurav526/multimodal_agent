@@ -1,5 +1,4 @@
 # Groq Multimodal Agent
-
 A Streamlit assistant that combines sequential agent roles with multimodal input/output workflows using the Groq API.
 
 ## Capabilities
